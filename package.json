@@ -19,11 +19,11 @@
   "dependencies": {
     "@headlessui/react": "1.7.19",
     "@heroicons/react": "2.1.5",
-    "@tanstack/react-query": "5.51.21",
+    "@tanstack/react-query": "5.51.23",
     "encore.dev": "1.39.3",
     "knex": "3.1.0",
     "luxon": "3.5.0",
-    "next": "14.2.2",
+    "next": "14.2.5",
     "pg": "8.12.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
