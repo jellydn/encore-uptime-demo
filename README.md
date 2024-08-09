@@ -13,8 +13,22 @@
 ## Usage
 
 ```sh
-TBD
+corepack enable && yarn install
 ```
+
+Run the following command to start the application:
+
+```sh
+make dev
+```
+
+## Run tests
+
+```sh
+make test
+```
+
+More details can be found in the [Encore.ts Tutorial Readme](./Encore-README.md).
 
 ## Show your support
 
