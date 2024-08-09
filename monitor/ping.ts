@@ -15,7 +15,7 @@ export const ping = api<PingParams, PingResponse>(
   async ({ url }) => {
     // If the url does not start with "http:" or "https:", default to "https:".
     if (!url.startsWith("http:") && !url.startsWith("https:")) {
-      url = "https://" + url;
+      url = `https://${url}`;
     }
 
     try {

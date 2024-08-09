@@ -1,10 +1,11 @@
 import { api } from "encore.dev/api";
+import { CronJob } from "encore.dev/cron"; // Check checks a single site.
 import { Subscription, Topic } from "encore.dev/pubsub";
 import { SQLDatabase } from "encore.dev/storage/sqldb";
-import { Site, SiteAddedTopic } from "../site/site";
-import { ping } from "./ping";
 import { site } from "~encore/clients";
-import { CronJob } from "encore.dev/cron"; // Check checks a single site.
+
+import { type Site, SiteAddedTopic } from "../site/site";
+import { ping } from "./ping";
 
 // Check checks a single site.
 export const check = api(
@@ -12,7 +13,7 @@ export const check = api(
   async (p: { siteID: number }): Promise<{ up: boolean }> => {
     const s = await site.get({ id: p.siteID });
     return doCheck(s);
-  },
+  }
 );
 
 // CheckAll checks all sites.
@@ -21,7 +22,7 @@ export const checkAll = api(
   async (): Promise<void> => {
     const sites = await site.list();
     await Promise.all(sites.sites.map(doCheck));
-  },
+  }
 );
 
 // Defines a Cron Job to check all tracked sites every hour.

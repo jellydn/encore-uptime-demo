@@ -1,8 +1,8 @@
 "use client";
 
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import Client, { monitor, site } from "@/app/lib/client";
-import { FC, useEffect, useState } from "react";
+import Client, { type monitor, site } from "@/app/lib/client";
+import { type FC, useEffect, useState } from "react";
 import { DateTime } from "luxon";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
 
   return (
     <>
-      <div className="min-h-full container px-4 mx-auto my-16">
-        <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+      <div className="container px-4 my-16 mx-auto min-h-full">
+        <h2 className="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:tracking-tight sm:truncate">
           Uptime Monitoring
         </h2>
 
@@ -54,7 +54,8 @@ const SiteList: FC<{ client: Client }> = ({ client }) => {
 
   if (isLoading) {
     return <div>Loading...</div>;
-  } else if (error) {
+  }
+  if (error) {
     return <div className="text-red-600">{(error as Error).message}</div>;
   }
 
@@ -71,33 +72,33 @@ const SiteList: FC<{ client: Client }> = ({ client }) => {
             and when they were last checked.
           </p>
         </div>
-        <div className="mt-4 sm:mt-0 sm:ml-16 sm:flex-none">
+        <div className="mt-4 sm:flex-none sm:mt-0 sm:ml-16">
           <AddSiteForm client={client} />
         </div>
       </div>
 
-      <div className="mt-8 flex flex-col">
-        <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
-            <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+      <div className="flex flex-col mt-8">
+        <div className="overflow-x-auto -my-2 -mx-4 sm:-mx-6 lg:-mx-8">
+          <div className="inline-block py-2 min-w-full align-middle md:px-6 lg:px-8">
+            <div className="overflow-hidden ring-1 ring-black ring-opacity-5 shadow md:rounded-lg">
               <table className="min-w-full divide-y divide-gray-300">
                 <thead className="bg-gray-50">
                   <tr>
                     <th
                       scope="col"
-                      className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                      className="py-3.5 px-3 text-sm font-semibold text-left text-gray-900"
                     >
                       Site
                     </th>
                     <th
                       scope="col"
-                      className="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                      className="relative py-3.5 pr-4 pl-3 sm:pr-6"
                     >
-                      <span className="sr-only"></span>
+                      <span className="sr-only" />
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-gray-200 bg-white">
+                <tbody className="bg-white divide-y divide-gray-200">
                   {data?.sites.length === 0 && (
                     <tr>
                       <td
@@ -108,13 +109,13 @@ const SiteList: FC<{ client: Client }> = ({ client }) => {
                       </td>
                     </tr>
                   )}
-                  {data!.sites.map((site) => {
+                  {data?.sites.map((site) => {
                     const st = status?.sites.find((s) => s.id === site.id);
                     const dt = st && DateTime.fromISO(st.checkedAt);
                     return (
                       <tr key={site.id}>
-                        <td className="px-3 py-4 text-sm">
-                          <div className="flex items-center gap-2">
+                        <td className="py-4 px-3 text-sm">
+                          <div className="flex gap-2 items-center">
                             <span className="text-gray-700">{site.url}</span>
                             <StatusBadge status={st} />
                           </div>
@@ -124,10 +125,11 @@ const SiteList: FC<{ client: Client }> = ({ client }) => {
                             </div>
                           )}
                         </td>
-                        <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+                        <td className="relative py-4 pr-4 pl-3 text-sm font-medium text-right whitespace-nowrap sm:pr-6">
                           <button
                             className="text-indigo-600 hover:text-indigo-900"
                             onClick={() => doDelete.mutate(site)}
+                            type="button"
                           >
                             Delete<span className="sr-only"> {site.url}</span>
                           </button>
@@ -175,7 +177,7 @@ const AddSiteForm: FC<{ client: Client }> = ({ client }) => {
     return (
       <button
         type="button"
-        className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+        className="inline-flex justify-center items-center py-2 px-4 text-sm font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm sm:w-auto hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none"
         onClick={() => setFormOpen(true)}
       >
         Add website
@@ -185,21 +187,21 @@ const AddSiteForm: FC<{ client: Client }> = ({ client }) => {
 
   return (
     <form onSubmit={onSubmit}>
-      <div className="flex flex-col md:flex-row md:items-end gap-4">
+      <div className="flex flex-col gap-4 md:flex-row md:items-end">
         <div>
           <input
             type="text"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder="google.com"
-            className="mt-1 block w-full rounded-md border-gray-300 p-2 border shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="block p-2 mt-1 w-full rounded-md border border-gray-300 shadow-sm sm:text-sm focus:border-indigo-500 focus:ring-indigo-500"
           />
         </div>
 
         <div>
           <button
             type="submit"
-            className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm enabled:hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-75"
+            className="inline-flex justify-center py-2 px-4 text-sm font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none disabled:opacity-75 enabled:hover:bg-indigo-700"
             disabled={!validURL(url)}
           >
             Save
@@ -212,14 +214,15 @@ const AddSiteForm: FC<{ client: Client }> = ({ client }) => {
 
 export default App;
 
-const validURL = (url: string) => {
-  const idx = url.lastIndexOf(".");
-  if (idx === -1 || url.substring(idx + 1) === "") {
+const validURL = (urlInput: string) => {
+  const idx = urlInput.lastIndexOf(".");
+  if (idx === -1 || urlInput.substring(idx + 1) === "") {
     return false;
   }
 
-  if (!url.startsWith("http:") && !url.startsWith("https:")) {
-    url = "https://" + url;
+  let url = urlInput;
+  if (!urlInput.startsWith("http:") && !urlInput.startsWith("https:")) {
+    url = `https://${urlInput}`;
   }
 
   try {
@@ -252,7 +255,7 @@ const Badge: FC<{
     red: ["bg-red-100", "text-red-800"],
     orange: ["bg-orange-100", "text-orange-800"],
     gray: ["bg-gray-100", "text-gray-800"],
-  }[color]!;
+  }[color];
 
   return (
     <span
