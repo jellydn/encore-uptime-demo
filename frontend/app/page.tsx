@@ -165,6 +165,7 @@ const AddSiteForm: FC<{ client: Client }> = ({ client }) => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["sites"] });
       queryClient.invalidateQueries({ queryKey: ["status"] });
+      setUrl("");
     },
   });
 
