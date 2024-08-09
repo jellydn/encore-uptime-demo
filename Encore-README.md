@@ -2,7 +2,7 @@
 
 This is an event-driven microservices application using Pub/Sub for asynchronous communication between services.
 
-The example in this starter is an Uptime Monitoring System that continuously monitors the uptime of a list of websites. 
+The example in this starter is an Uptime Monitoring System that continuously monitors the uptime of a list of websites.
 
 When it detects a website is down, it posts a Slack message notifying that the website is down, and another message when the website is back up again.
 
@@ -10,7 +10,6 @@ It has a react frontend and you can try a demo version [here](https://uptime.enc
 
 ![Frontend](https://encore.dev/assets/tutorials/uptime/frontend.png)
 ![Architecture](https://encore.dev/assets/tutorials/uptime/encore-flow.png)
-
 
 ## Build from scratch with a tutorial
 
@@ -27,11 +26,13 @@ encore app create uptime-example --example=ts/uptime
 ## Running locally
 
 Run your application:
+
 ```bash
 encore run
 ```
 
 To use the Slack integration, set the Slack Webhook URL (see tutorial above):
+
 ```bash
 encore secret set SlackWebhookURL
 ```
@@ -51,21 +52,25 @@ While `encore run` is running, head over to [http://localhost:4000/](http://loca
 ## Using the API
 
 Check if a given site is up (defaults to 'https://' if left out):
+
 ```bash
 curl 'http://localhost:4000/ping/google.com'
 ```
 
 Add a site to be automatically pinged every 1 hour:
+
 ```bash
 curl 'http://localhost:4000/site' -d '{"url":"google.com"}'
 ```
 
 Check all tracked sites immediately:
+
 ```bash
 curl -X POST 'http://localhost:4000/check-all'
 ```
 
 Get the current status of all tracked sites:
+
 ```bash
 curl 'http://localhost:4000/status'
 ```

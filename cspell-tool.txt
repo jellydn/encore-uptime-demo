@@ -4,5 +4,7 @@ behaviour
 Typeguard
 luxon
 sqldb
+biomejs
 headlessui
-encoredev
+corepack
+automerge
