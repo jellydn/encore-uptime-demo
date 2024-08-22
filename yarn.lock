@@ -718,14 +718,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.52.0":
-  version: 5.52.0
-  resolution: "@tanstack/react-query@npm:5.52.0"
+"@tanstack/react-query@npm:5.52.1":
+  version: 5.52.1
+  resolution: "@tanstack/react-query@npm:5.52.1"
   dependencies:
     "@tanstack/query-core": "npm:5.52.0"
   peerDependencies:
-    react: ^18.0.0
-  checksum: 10c0/90e46fe0de5ed727a067e6ad0b7731ffa7c068f389577d9185261da175c24d932d50c0f781553a47801b4a1dbfbf63b8ef6e97bab36b1a891eed33cd59eadace
+    react: ^18 || ^19
+  checksum: 10c0/a07697446311e908173bcce25ccbf019d7ffde19a7607b6791195414f1b337754f48d3d40b8100283e0fea556295240ecf9fe7bb39b3c1f3040d1ac38da03485
   languageName: node
   linkType: hard
 
@@ -2596,7 +2596,7 @@ __metadata:
     "@headlessui/react": "npm:2.1.2"
     "@heroicons/react": "npm:2.1.5"
     "@rollup/rollup-linux-x64-gnu": "npm:4.21.0"
-    "@tanstack/react-query": "npm:5.52.0"
+    "@tanstack/react-query": "npm:5.52.1"
     "@types/luxon": "npm:3.4.2"
     "@types/node": "npm:20.16.1"
     "@types/react": "npm:18.3.4"
