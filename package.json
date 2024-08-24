@@ -32,5 +32,5 @@
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "4.21.0"
 	},
-	"packageManager": "yarn@4.4.0"
+	"packageManager": "yarn@4.4.1"
 }
