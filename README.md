@@ -40,6 +40,10 @@ make test
 
 More details can be found in the [Encore.ts Tutorial Readme](./Encore-README.md).
 
+## TODO:
+ - [ ] Add login UI
+ - [ ] Add auth for API for adding new site (per user)
+
 ## Resources
 
 - [Encore — Development Platform for type-safe distributed systems](https://encore.dev/)
