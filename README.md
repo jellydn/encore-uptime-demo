@@ -20,7 +20,6 @@
 - **Tooling**: Biome.js - https://biomejs.dev/
 - **Pre-commit Hook**: Pre-commit - https://pre-commit.com/
 
-
 ## Usage
 
 ```sh
