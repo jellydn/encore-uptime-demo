@@ -33,6 +33,7 @@ make test
 More details can be found in the [Encore.ts Tutorial Readme](./Encore-README.md).
 
 ## Resources
+
 - [Encore — Development Platform for type-safe distributed systems](https://encore.dev/)
 - [Encore.ts — Launch Week Day 1 – Encore Blog](https://encore.dev/blog/encore-for-typescript)
 - [Encore.ts — 9x faster than Express.js & 3x faster than Bun + Zod - DEV Community](https://dev.to/encore/encorets-9x-faster-than-expressjs-3x-faster-than-bun-zod-4boe?context=digest)
