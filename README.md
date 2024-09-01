@@ -12,6 +12,15 @@
 
 [![IT Man - Introducing Encore.ts: The Future of Backend Development with TypeScript](https://i.ytimg.com/vi/HbGD5x5AxtQ/hqdefault.jpg)](https://www.youtube.com/watch?v=HbGD5x5AxtQ)
 
+## Tech Stack
+
+- **Frontend**: Next.js 14 - https://nextjs.org/
+- **API**: Encore.ts - https://encore.dev/
+- **Database**: PostgreSQL
+- **Tooling**: Biome.js - https://biomejs.dev/
+- **Pre-commit Hook**: Pre-commit - https://pre-commit.com/
+
+
 ## Usage
 
 ```sh
