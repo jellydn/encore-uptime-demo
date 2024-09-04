@@ -319,9 +319,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:2.1.4":
-  version: 2.1.4
-  resolution: "@headlessui/react@npm:2.1.4"
+"@headlessui/react@npm:2.1.5":
+  version: 2.1.5
+  resolution: "@headlessui/react@npm:2.1.5"
   dependencies:
     "@floating-ui/react": "npm:^0.26.16"
     "@react-aria/focus": "npm:^3.17.1"
@@ -330,7 +330,7 @@ __metadata:
   peerDependencies:
     react: ^18
     react-dom: ^18
-  checksum: 10c0/39e7601e04a9172fd6d280d6f275421e12441437a73927ba94dd22713c1a3178f4d197c62c7fc7738cadba6dafc15ec61d02827a54a93d9e20addc1af6c58fd6
+  checksum: 10c0/3ab5c4af37f3250a1cc35d7c0ea7cc8f42a1ad6fea05df53ea92358dd310e21b836681f8b6020c838d7180213dc1cbebc33eff167d1c2dcad4ecc152cd16f3da
   languageName: node
   linkType: hard
 
@@ -1139,10 +1139,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.40.0":
-  version: 1.40.0
-  resolution: "encore.dev@npm:1.40.0"
-  checksum: 10c0/64a5ccd5d58a21195aea0a1da066546d1b58ea6334aa76493e9cf7a7eedc822a26c38b0b902c90081a73c06fd96872578055c44131b977c90ed529c60e3e04c3
+"encore.dev@npm:1.40.3":
+  version: 1.40.3
+  resolution: "encore.dev@npm:1.40.3"
+  checksum: 10c0/f1bf71e9358770933fb3be8f9fb3059f171d377f931e150392f1c57e92d76cce038147dc9150e58c6a1daeacc3fd5e1daf6d54068dcf9f898f14e0cde1164984
   languageName: node
   linkType: hard
 
@@ -2583,7 +2583,7 @@ __metadata:
   resolution: "uptime@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.8.3"
-    "@headlessui/react": "npm:2.1.4"
+    "@headlessui/react": "npm:2.1.5"
     "@heroicons/react": "npm:2.1.5"
     "@rollup/rollup-linux-x64-gnu": "npm:4.21.2"
     "@tanstack/react-query": "npm:5.54.1"
@@ -2591,7 +2591,7 @@ __metadata:
     "@types/node": "npm:22.5.3"
     "@types/react": "npm:18.3.5"
     "@types/react-dom": "npm:18.3.0"
-    encore.dev: "npm:1.40.0"
+    encore.dev: "npm:1.40.3"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.7"
