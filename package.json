@@ -18,7 +18,7 @@
 		"vitest": "2.0.5"
 	},
 	"dependencies": {
-		"@headlessui/react": "2.1.6",
+		"@headlessui/react": "2.1.7",
 		"@heroicons/react": "2.1.5",
 		"@tanstack/react-query": "5.55.4",
 		"encore.dev": "1.41.1",
