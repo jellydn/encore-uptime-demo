@@ -612,9 +612,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.22.2":
-  version: 4.22.2
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.22.2"
+"@rollup/rollup-linux-x64-gnu@npm:4.22.4":
+  version: 4.22.4
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.22.4"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -2506,7 +2506,7 @@ __metadata:
     "@biomejs/biome": "npm:1.9.2"
     "@headlessui/react": "npm:2.1.8"
     "@heroicons/react": "npm:2.1.5"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.22.2"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.22.4"
     "@tanstack/react-query": "npm:5.56.2"
     "@types/luxon": "npm:3.4.2"
     "@types/node": "npm:22.5.5"
