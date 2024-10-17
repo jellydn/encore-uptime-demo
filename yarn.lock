@@ -673,14 +673,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.59.13":
-  version: 5.59.13
-  resolution: "@tanstack/react-query@npm:5.59.13"
+"@tanstack/react-query@npm:5.59.15":
+  version: 5.59.15
+  resolution: "@tanstack/react-query@npm:5.59.15"
   dependencies:
     "@tanstack/query-core": "npm:5.59.13"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/b69b87ff61245f4ddc6c7fffd0b817b0fa24a3f2f79f70b3be8e0c861fb19430392c4df664f7d64f127b3ab8549e45acc4c65b652799494555762f050507fe2f
+  checksum: 10c0/7b697eee85ed40efb82b6609434e2580405a3c32844365a8bb876b354e3068b21e0fa4c8ed0f5a06af45dc68373f39873b046f104975a31204d9288e03bba0f5
   languageName: node
   linkType: hard
 
@@ -717,12 +717,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.7.5":
-  version: 22.7.5
-  resolution: "@types/node@npm:22.7.5"
+"@types/node@npm:22.7.6":
+  version: 22.7.6
+  resolution: "@types/node@npm:22.7.6"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/cf11f74f1a26053ec58066616e3a8685b6bcd7259bc569738b8f752009f9f0f7f85a1b2d24908e5b0f752482d1e8b6babdf1fbb25758711ec7bb9500bfcd6e60
+  checksum: 10c0/d4406a63afce981c363fb1d1954aaf1759ad2d487c0833ebf667565ea4e45ff217d6fab4b5343badbdeccdf9d2e4a0841d633e0c929ceabcb33c288663dd0c73
   languageName: node
   linkType: hard
 
@@ -1113,10 +1113,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.41.12":
-  version: 1.41.12
-  resolution: "encore.dev@npm:1.41.12"
-  checksum: 10c0/f12043f7066fedbb398a86eabc6564e09d239a1e83ee8d5595d7af273986918fc49fb3278da40199b1823c291f8af38344106082050b1bf4f4c2c7ab21c0192e
+"encore.dev@npm:1.41.14":
+  version: 1.41.14
+  resolution: "encore.dev@npm:1.41.14"
+  checksum: 10c0/1bf109fafb9d57b86fb5952be6ac5bf46f317347ee5a8c4c1d56bc379ce9fd048990cb0ebdeab9d2bf340ffeed86e687bd2029f65416722fee972969dd1cc838
   languageName: node
   linkType: hard
 
@@ -2481,12 +2481,12 @@ __metadata:
     "@headlessui/react": "npm:2.1.10"
     "@heroicons/react": "npm:2.1.5"
     "@rollup/rollup-linux-x64-gnu": "npm:4.24.0"
-    "@tanstack/react-query": "npm:5.59.13"
+    "@tanstack/react-query": "npm:5.59.15"
     "@types/luxon": "npm:3.4.2"
-    "@types/node": "npm:22.7.5"
+    "@types/node": "npm:22.7.6"
     "@types/react": "npm:18.3.11"
     "@types/react-dom": "npm:18.3.1"
-    encore.dev: "npm:1.41.12"
+    encore.dev: "npm:1.41.14"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.15"
