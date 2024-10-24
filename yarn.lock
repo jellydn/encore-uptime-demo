@@ -1123,10 +1123,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.42.1":
-  version: 1.42.1
-  resolution: "encore.dev@npm:1.42.1"
-  checksum: 10c0/ec42b9267fc291bb1ec6d8ab97e215c19ad81fa2571f73721b98aba85f8ce2ca8846900bd4adbbaeaa5c8e859704051e9029dda2f99c86586ef91a8c87dacdea
+"encore.dev@npm:1.42.4":
+  version: 1.42.4
+  resolution: "encore.dev@npm:1.42.4"
+  checksum: 10c0/71a692ff672a4d0f02d8324e28838108cc346b26ab23641321a525cba5feeb347fe10ac52f813bd53ba5dcef45f33be0461abaf349c353c7321350102c55fe3e
   languageName: node
   linkType: hard
 
@@ -1924,9 +1924,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:8.13.0":
-  version: 8.13.0
-  resolution: "pg@npm:8.13.0"
+"pg@npm:8.13.1":
+  version: 8.13.1
+  resolution: "pg@npm:8.13.1"
   dependencies:
     pg-cloudflare: "npm:^1.1.1"
     pg-connection-string: "npm:^2.7.0"
@@ -1942,7 +1942,7 @@ __metadata:
   peerDependenciesMeta:
     pg-native:
       optional: true
-  checksum: 10c0/1521189063d2293d62f3fac61e797a3096a62a69668c223827d00b83c17a320805f31f0b5316feb80f8d9eed0c6c32f95146d8aca866af05816a66fd2ba8e32a
+  checksum: 10c0/c13bc661cbdb115337bc8519254836faf4bd79106dfd7ed588c8ece8c8b2dd3b7376bfec9a9a2f7646fa095b0b310cec77a83c3ba2ea4872331446eb93fd9055
   languageName: node
   linkType: hard
 
@@ -2496,11 +2496,11 @@ __metadata:
     "@types/node": "npm:22.7.9"
     "@types/react": "npm:18.3.12"
     "@types/react-dom": "npm:18.3.1"
-    encore.dev: "npm:1.42.1"
+    encore.dev: "npm:1.42.4"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.16"
-    pg: "npm:8.13.0"
+    pg: "npm:8.13.1"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     typescript: "npm:5.6.3"
