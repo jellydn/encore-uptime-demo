@@ -309,18 +309,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:2.1.10":
-  version: 2.1.10
-  resolution: "@headlessui/react@npm:2.1.10"
+"@headlessui/react@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@headlessui/react@npm:2.2.0"
   dependencies:
     "@floating-ui/react": "npm:^0.26.16"
     "@react-aria/focus": "npm:^3.17.1"
     "@react-aria/interactions": "npm:^3.21.3"
     "@tanstack/react-virtual": "npm:^3.8.1"
   peerDependencies:
-    react: ^18
-    react-dom: ^18
-  checksum: 10c0/80d5abd311491b3d7727edb5b37de3d51616e475bb83b92e0fa1593723bd21f782e642848fdc1e73243564f2b1b43238d07a3cedede85f364e330c95a52d7e57
+    react: ^18 || ^19 || ^19.0.0-rc
+    react-dom: ^18 || ^19 || ^19.0.0-rc
+  checksum: 10c0/af64ef2868405e629f55925d06ab6723b40a9d0802c1bd91e8ae834b6d50e51e0942bcdee44f4b51ce3b82be7c23df49e93713a29486a899d0d56b7ddce78039
   languageName: node
   linkType: hard
 
@@ -717,12 +717,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.7.9":
-  version: 22.7.9
-  resolution: "@types/node@npm:22.7.9"
+"@types/node@npm:22.8.0":
+  version: 22.8.0
+  resolution: "@types/node@npm:22.8.0"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/2d1917702b9d9ede8e4d8151cd8b1af8bc147d543486474ffbe0742e38764ea73105939e6a767addf7a4c39e842e16eae762bff90617d7b7f9ee3fbbb2d23bfa
+    undici-types: "npm:~6.19.8"
+  checksum: 10c0/21eb10cee768d32e965d095415a4c6a7752f26bfcc34a8c1d7ab3989a6ab13a51761cc245909570d59c6bdacbdfd055d307dc6b201ac04305c57e65c1e7bf5be
   languageName: node
   linkType: hard
 
@@ -1123,10 +1123,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.42.4":
-  version: 1.42.4
-  resolution: "encore.dev@npm:1.42.4"
-  checksum: 10c0/71a692ff672a4d0f02d8324e28838108cc346b26ab23641321a525cba5feeb347fe10ac52f813bd53ba5dcef45f33be0461abaf349c353c7321350102c55fe3e
+"encore.dev@npm:1.43.2":
+  version: 1.43.2
+  resolution: "encore.dev@npm:1.43.2"
+  checksum: 10c0/7e365f9eef01d2bbeca4c46e7b9b46dd1da205a023f3a6dc295c198e951f5d44b15c587baa4230a7fe1419fca7641a49100a8de087c19f4039bb2cda01ea261a
   languageName: node
   linkType: hard
 
@@ -2458,7 +2458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
+"undici-types@npm:~6.19.8":
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
@@ -2488,15 +2488,15 @@ __metadata:
   resolution: "uptime@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    "@headlessui/react": "npm:2.1.10"
+    "@headlessui/react": "npm:2.2.0"
     "@heroicons/react": "npm:2.1.5"
     "@rollup/rollup-linux-x64-gnu": "npm:4.24.0"
     "@tanstack/react-query": "npm:5.59.16"
     "@types/luxon": "npm:3.4.2"
-    "@types/node": "npm:22.7.9"
+    "@types/node": "npm:22.8.0"
     "@types/react": "npm:18.3.12"
     "@types/react-dom": "npm:18.3.1"
-    encore.dev: "npm:1.42.4"
+    encore.dev: "npm:1.43.2"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.16"
