@@ -324,12 +324,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@heroicons/react@npm:2.1.5":
-  version: 2.1.5
-  resolution: "@heroicons/react@npm:2.1.5"
+"@heroicons/react@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@heroicons/react@npm:2.2.0"
   peerDependencies:
-    react: ">= 16"
-  checksum: 10c0/d0ca2d017545da103ed8e90e9e6679d46329c1b09bb4c06ff509b0fe7cfbba7034409ea24b0469fabd2a0a9b144e8e717f58de924615e0b0a1bed7b51fcc5940
+    react: ">= 16 || ^19.0.0-rc"
+  checksum: 10c0/f8d3cf689b56716339c91df3542f3948115042d1e70e6bc940a3f3e347c0bc78b56aa563917fbd7ce097fe2f38ebb21bffb0db39be914cbc545a754bddae9ab4
   languageName: node
   linkType: hard
 
@@ -622,6 +622,13 @@ __metadata:
 "@rollup/rollup-linux-x64-gnu@npm:4.27.2":
   version: 4.27.2
   resolution: "@rollup/rollup-linux-x64-gnu@npm:4.27.2"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@rollup/rollup-linux-x64-gnu@npm:4.27.3":
+  version: 4.27.3
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.27.3"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1126,10 +1133,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.43.12":
-  version: 1.43.12
-  resolution: "encore.dev@npm:1.43.12"
-  checksum: 10c0/973bd870e04c8d664608fa9a2b559ce18ab02930bd46e5fb022426249953ea8883901723bb9ac27fc4a2bdefe83e5e6bf28e103e5e9c296ce84cbb845ef9a312
+"encore.dev@npm:1.44.2":
+  version: 1.44.2
+  resolution: "encore.dev@npm:1.44.2"
+  checksum: 10c0/ab4ecd7e2bde70a37ea8886216291387092e0a21e5c378aa3c7b659540d0372d605bdca6ef04d574ba22a6ba8b2b2f046d951cc41d010fbbaaa6375e20be3853
   languageName: node
   linkType: hard
 
@@ -2512,14 +2519,14 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.0"
-    "@heroicons/react": "npm:2.1.5"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.27.2"
+    "@heroicons/react": "npm:2.2.0"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.27.3"
     "@tanstack/react-query": "npm:5.60.5"
     "@types/luxon": "npm:3.4.2"
     "@types/node": "npm:22.9.0"
     "@types/react": "npm:18.3.12"
     "@types/react-dom": "npm:18.3.1"
-    encore.dev: "npm:1.43.12"
+    encore.dev: "npm:1.44.2"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.18"
