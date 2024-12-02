@@ -15,13 +15,13 @@
 		"@types/react": "18.3.12",
 		"@types/react-dom": "18.3.1",
 		"typescript": "5.7.2",
-		"vitest": "2.1.6"
+		"vitest": "2.1.8"
 	},
 	"dependencies": {
 		"@headlessui/react": "2.2.0",
 		"@heroicons/react": "2.2.0",
 		"@tanstack/react-query": "5.62.0",
-		"encore.dev": "1.44.7",
+		"encore.dev": "1.44.8",
 		"knex": "3.1.0",
 		"luxon": "3.5.0",
 		"next": "14.2.18",
