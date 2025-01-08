@@ -710,14 +710,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.62.16":
-  version: 5.62.16
-  resolution: "@tanstack/react-query@npm:5.62.16"
+"@tanstack/react-query@npm:5.63.0":
+  version: 5.63.0
+  resolution: "@tanstack/react-query@npm:5.63.0"
   dependencies:
     "@tanstack/query-core": "npm:5.62.16"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/8c1fa1f746a4679da7fdb9708ca286a42eae9c6de3a3643afd53632436cb878a94f68bb617be5a2b4369ad839380d1621dc0f49c7551ffdd9bc4568168e4483c
+  checksum: 10c0/8d9622c3b301ff309b4dcfd7a1b14469aa4ac5c1cca20507e67ca57ba1da72fc968d5cbff2b724b5c9f4eb9947e74c0cbf7e68a4c5698c179555da7e91aef6b5
   languageName: node
   linkType: hard
 
@@ -1130,10 +1130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.45.2":
-  version: 1.45.2
-  resolution: "encore.dev@npm:1.45.2"
-  checksum: 10c0/73701b1f2d2e2934c8ece18820942e0a8c4b8b6c0be681b1fa7613a4c67754d7f86fd4adbf2add4f51b42ea91d23a9983bc8290fee6dccbcb259b685dbd48e28
+"encore.dev@npm:1.45.3":
+  version: 1.45.3
+  resolution: "encore.dev@npm:1.45.3"
+  checksum: 10c0/703db3713ab42824fdc1c3d2c9e3926dcb17b8355dda7aa734b20e0c172d43d6b14b58b4495397ecd83a08020a79863eb9bad91c0a58c71874a24d4972f336fd
   languageName: node
   linkType: hard
 
@@ -2446,23 +2446,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.7.2":
-  version: 5.7.2
-  resolution: "typescript@npm:5.7.2"
+"typescript@npm:5.7.3":
+  version: 5.7.3
+  resolution: "typescript@npm:5.7.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/a873118b5201b2ef332127ef5c63fb9d9c155e6fdbe211cbd9d8e65877283797cca76546bad742eea36ed7efbe3424a30376818f79c7318512064e8625d61622
+  checksum: 10c0/b7580d716cf1824736cc6e628ab4cd8b51877408ba2be0869d2866da35ef8366dd6ae9eb9d0851470a39be17cbd61df1126f9e211d8799d764ea7431d5435afa
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>":
-  version: 5.7.2
-  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"
+"typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>":
+  version: 5.7.3
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/f3b8082c9d1d1629a215245c9087df56cb784f9fb6f27b5d55577a20e68afe2a889c040aacff6d27e35be165ecf9dca66e694c42eb9a50b3b2c451b36b5675cb
+  checksum: 10c0/6fd7e0ed3bf23a81246878c613423730c40e8bdbfec4c6e4d7bf1b847cbb39076e56ad5f50aa9d7ebd89877999abaee216002d3f2818885e41c907caaa192cc4
   languageName: node
   linkType: hard
 
@@ -2499,19 +2499,19 @@ __metadata:
     "@headlessui/react": "npm:2.2.0"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.30.1"
-    "@tanstack/react-query": "npm:5.62.16"
+    "@tanstack/react-query": "npm:5.63.0"
     "@types/luxon": "npm:3.4.2"
     "@types/node": "npm:22.10.5"
     "@types/react": "npm:18.3.18"
     "@types/react-dom": "npm:18.3.5"
-    encore.dev: "npm:1.45.2"
+    encore.dev: "npm:1.45.3"
     knex: "npm:3.1.0"
     luxon: "npm:3.5.0"
     next: "npm:14.2.23"
     pg: "npm:8.13.1"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    typescript: "npm:5.7.2"
+    typescript: "npm:5.7.3"
     vitest: "npm:2.1.8"
   dependenciesMeta:
     "@rollup/rollup-linux-x64-gnu":
