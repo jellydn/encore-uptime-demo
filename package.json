@@ -20,17 +20,17 @@
 	"dependencies": {
 		"@headlessui/react": "2.2.0",
 		"@heroicons/react": "2.2.0",
-		"@tanstack/react-query": "5.69.0",
+		"@tanstack/react-query": "5.70.0",
 		"encore.dev": "1.46.14",
 		"knex": "3.1.0",
 		"luxon": "3.6.0",
 		"next": "14.2.26",
 		"pg": "8.14.1",
-		"react": "19.0.0",
-		"react-dom": "19.0.0"
+		"react": "19.1.0",
+		"react-dom": "19.1.0"
 	},
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "4.37.0"
 	},
-	"packageManager": "yarn@4.7.0"
+	"packageManager": "yarn@4.8.0"
 }
