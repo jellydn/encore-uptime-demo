@@ -15,15 +15,15 @@
 		"@types/react": "19.0.12",
 		"@types/react-dom": "19.0.4",
 		"typescript": "5.8.2",
-		"vitest": "3.0.9"
+		"vitest": "3.1.1"
 	},
 	"dependencies": {
 		"@headlessui/react": "2.2.0",
 		"@heroicons/react": "2.2.0",
-		"@tanstack/react-query": "5.71.0",
+		"@tanstack/react-query": "5.71.1",
 		"encore.dev": "1.46.14",
 		"knex": "3.1.0",
-		"luxon": "3.6.0",
+		"luxon": "3.6.1",
 		"next": "14.2.26",
 		"pg": "8.14.1",
 		"react": "19.1.0",
