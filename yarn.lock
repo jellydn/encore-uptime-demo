@@ -782,12 +782,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.13.14":
-  version: 22.13.14
-  resolution: "@types/node@npm:22.13.14"
+"@types/node@npm:22.13.17":
+  version: 22.13.17
+  resolution: "@types/node@npm:22.13.17"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/fa2ab5b8277bfbcc86c42e46a3ea9871b0d559894cc9d955685d17178c9499f0b1bf03d1d1ea8d92ef2dda818988f4035acb8abf9dc15423a998fa56173ab804
+  checksum: 10c0/77a052fec0fe02f60557e1c5f3f28eb09cd9bee426be88328a94689150a3c0df5b4b6b69fad28157fb34521693dad0b311ecd7f613845d681ff973991310c20e
   languageName: node
   linkType: hard
 
@@ -1150,10 +1150,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.46.14":
-  version: 1.46.14
-  resolution: "encore.dev@npm:1.46.14"
-  checksum: 10c0/83b47aa9ef517fe32e66f4e86a5562e00f6c2f0a71c8b82e63efc79fec97e8213d6ccf3c3d43c6d186316286185b202b2ff9b80c1d809634d10a166acc63ff82
+"encore.dev@npm:1.46.16":
+  version: 1.46.16
+  resolution: "encore.dev@npm:1.46.16"
+  checksum: 10c0/7ee308ac9dcd96694b8f02f23c3ab40e6ede9a52c03eef3e6fe19cd49ea098a7df787f5af0dd7d2f98a0457945fab13db4adc446d54c815cd9bf16eee5f75a62
   languageName: node
   linkType: hard
 
@@ -2507,10 +2507,10 @@ __metadata:
     "@rollup/rollup-linux-x64-gnu": "npm:4.38.0"
     "@tanstack/react-query": "npm:5.71.1"
     "@types/luxon": "npm:3.6.0"
-    "@types/node": "npm:22.13.14"
+    "@types/node": "npm:22.13.17"
     "@types/react": "npm:19.0.12"
     "@types/react-dom": "npm:19.0.4"
-    encore.dev: "npm:1.46.14"
+    encore.dev: "npm:1.46.16"
     knex: "npm:3.1.0"
     luxon: "npm:3.6.1"
     next: "npm:14.2.26"
