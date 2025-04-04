@@ -323,18 +323,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@headlessui/react@npm:2.2.0"
+"@headlessui/react@npm:2.2.1":
+  version: 2.2.1
+  resolution: "@headlessui/react@npm:2.2.1"
   dependencies:
     "@floating-ui/react": "npm:^0.26.16"
     "@react-aria/focus": "npm:^3.17.1"
     "@react-aria/interactions": "npm:^3.21.3"
-    "@tanstack/react-virtual": "npm:^3.8.1"
+    "@tanstack/react-virtual": "npm:^3.11.1"
   peerDependencies:
     react: ^18 || ^19 || ^19.0.0-rc
     react-dom: ^18 || ^19 || ^19.0.0-rc
-  checksum: 10c0/af64ef2868405e629f55925d06ab6723b40a9d0802c1bd91e8ae834b6d50e51e0942bcdee44f4b51ce3b82be7c23df49e93713a29486a899d0d56b7ddce78039
+  checksum: 10c0/c635a0466c39e3f95197afb0aaa36303fafa339fb0e2776b479c11584c0811c8976460ae26d26fafbefb086de224d51ba65535fe5e31d7f49ebd1a25f20b6398
   languageName: node
   linkType: hard
 
@@ -738,40 +738,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.71.5":
-  version: 5.71.5
-  resolution: "@tanstack/query-core@npm:5.71.5"
-  checksum: 10c0/d0f9bd69efc47d52553f10e288495b4992ed698cda93e408c0622cbbfaa806a9e383db902e5270718f09e09204f79a898f13fc850b1014dd0e695a933843db3f
+"@tanstack/query-core@npm:5.71.10":
+  version: 5.71.10
+  resolution: "@tanstack/query-core@npm:5.71.10"
+  checksum: 10c0/2b6a9c6b252c434cdf1048f9f82d1de27ff06dd67c5c76408bb028778f77308e245b043a55db7b012148e5fd9317ee176d8179caffa18cf4d35c5d721cd81346
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.71.5":
-  version: 5.71.5
-  resolution: "@tanstack/react-query@npm:5.71.5"
+"@tanstack/react-query@npm:5.71.10":
+  version: 5.71.10
+  resolution: "@tanstack/react-query@npm:5.71.10"
   dependencies:
-    "@tanstack/query-core": "npm:5.71.5"
+    "@tanstack/query-core": "npm:5.71.10"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/7fa32edb167271532e2439e543c442d1fdb199bb1aae4dd9e537dcc9990f3b1fb1f26233611b631c65d6f9387b0365fc3a92ab8040cc0ae49b8b3da763bae535
+  checksum: 10c0/59275edfe5293fd0d825b4b048e4ceba890b5732a2ec5538d697296864498a647a51dc58fcebac5e36536d0ca7340deb0606870d86ffd4449933d368505b2ac4
   languageName: node
   linkType: hard
 
-"@tanstack/react-virtual@npm:^3.8.1":
-  version: 3.13.5
-  resolution: "@tanstack/react-virtual@npm:3.13.5"
+"@tanstack/react-virtual@npm:^3.11.1":
+  version: 3.13.6
+  resolution: "@tanstack/react-virtual@npm:3.13.6"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.13.5"
+    "@tanstack/virtual-core": "npm:3.13.6"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/ba8ce66cd7a8c6cb950b033a7da54b492365e92f2b9bc79cf084388ad2d30a628a9e3197811144c3383d71dd13cf1715d1ad626c5268375472374c8a39925ab6
+  checksum: 10c0/3d2fdf024cb9189981cc015518a34a771a57cd698ca775022ad481431e6f26e596309f57d2238ef15f3b53b805879edaed6394e4cad1bb550ee92259e4d52633
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.13.5":
-  version: 3.13.5
-  resolution: "@tanstack/virtual-core@npm:3.13.5"
-  checksum: 10c0/870fb28e5972bb20c0d7e980a3cbe72f18c2a7aaa60c26d63b8cb27b2daeb9fea17f13361c5fac0854be7f357b33263cedf23a4fb2f82c6740434cad5572be3e
+"@tanstack/virtual-core@npm:3.13.6":
+  version: 3.13.6
+  resolution: "@tanstack/virtual-core@npm:3.13.6"
+  checksum: 10c0/9c40af4deccf0fadc5c371f4e659f1aff221db0ede9664ee7cf3642a2d05f6f1c9494605f3606f70d7c8948dc22e50c48519a8435d0e845f1b1f34c9353722c8
   languageName: node
   linkType: hard
 
@@ -2509,10 +2509,10 @@ __metadata:
   resolution: "uptime@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    "@headlessui/react": "npm:2.2.0"
+    "@headlessui/react": "npm:2.2.1"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.39.0"
-    "@tanstack/react-query": "npm:5.71.5"
+    "@tanstack/react-query": "npm:5.71.10"
     "@types/luxon": "npm:3.6.2"
     "@types/node": "npm:22.14.0"
     "@types/react": "npm:19.1.0"
