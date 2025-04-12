@@ -30,7 +30,7 @@
 		"react-dom": "19.1.0"
 	},
 	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "4.39.0"
+		"@rollup/rollup-linux-x64-gnu": "4.40.0"
 	},
 	"packageManager": "yarn@4.9.0"
 }
