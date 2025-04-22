@@ -21,11 +21,11 @@
 		"@headlessui/react": "2.2.2",
 		"@heroicons/react": "2.2.0",
 		"@tanstack/react-query": "5.74.4",
-		"encore.dev": "1.46.19",
+		"encore.dev": "1.46.20",
 		"knex": "3.1.0",
 		"luxon": "3.6.1",
 		"next": "14.2.28",
-		"pg": "8.14.1",
+		"pg": "8.15.1",
 		"react": "19.1.0",
 		"react-dom": "19.1.0"
 	},
