@@ -20,8 +20,8 @@
 	"dependencies": {
 		"@headlessui/react": "2.2.2",
 		"@heroicons/react": "2.2.0",
-		"@tanstack/react-query": "5.75.6",
-		"encore.dev": "1.46.21",
+		"@tanstack/react-query": "5.75.7",
+		"encore.dev": "1.46.22",
 		"knex": "3.1.0",
 		"luxon": "3.6.1",
 		"next": "14.2.28",
