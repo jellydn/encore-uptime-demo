@@ -323,19 +323,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:2.2.3":
-  version: 2.2.3
-  resolution: "@headlessui/react@npm:2.2.3"
+"@headlessui/react@npm:2.2.4":
+  version: 2.2.4
+  resolution: "@headlessui/react@npm:2.2.4"
   dependencies:
     "@floating-ui/react": "npm:^0.26.16"
     "@react-aria/focus": "npm:^3.20.2"
     "@react-aria/interactions": "npm:^3.25.0"
-    "@tanstack/react-virtual": "npm:^3.13.6"
+    "@tanstack/react-virtual": "npm:^3.13.9"
     use-sync-external-store: "npm:^1.5.0"
   peerDependencies:
     react: ^18 || ^19 || ^19.0.0-rc
     react-dom: ^18 || ^19 || ^19.0.0-rc
-  checksum: 10c0/8f54836b7d2d621270266fed7ca2f6645c1a3d40f46fab397412d61fec201c7ee1b49d32643ea730e1f69bf387ee04c003ddf80361df4e1d700af44c50183eae
+  checksum: 10c0/4b6dfe65adc7e28a842ea83faabd11979926a5fd2933e18bc934fd3c5aff11b8317f2a016026030691f6a417ba242a63bcae7ca3e137bcde7264d0211cec6dfe
   languageName: node
   linkType: hard
 
@@ -378,72 +378,72 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/env@npm:14.2.28"
-  checksum: 10c0/edf665a7bfb14a5e74e40bad8355e4d72f2c86d5698fc541b03b42e719e57c8db1ba37fa615228954519689bed5add2c271f3e6caaa197d894471763cfbc88ee
+"@next/env@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/env@npm:14.2.29"
+  checksum: 10c0/f4579139610a3a6eab5dfc92a982ed3530350e2b7d29993ca4b76aee3f23e9c4244fcee9f24e85bc7840e84a375fbfa819deced9f0c2aeb3bdd86b5d57abd23e
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-darwin-arm64@npm:14.2.28"
+"@next/swc-darwin-arm64@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-darwin-arm64@npm:14.2.29"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-darwin-x64@npm:14.2.28"
+"@next/swc-darwin-x64@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-darwin-x64@npm:14.2.29"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.28"
+"@next/swc-linux-arm64-gnu@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.29"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-linux-arm64-musl@npm:14.2.28"
+"@next/swc-linux-arm64-musl@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-linux-arm64-musl@npm:14.2.29"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-linux-x64-gnu@npm:14.2.28"
+"@next/swc-linux-x64-gnu@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-linux-x64-gnu@npm:14.2.29"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-linux-x64-musl@npm:14.2.28"
+"@next/swc-linux-x64-musl@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-linux-x64-musl@npm:14.2.29"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.28"
+"@next/swc-win32-arm64-msvc@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.29"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.28"
+"@next/swc-win32-ia32-msvc@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.29"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:14.2.28":
-  version: 14.2.28
-  resolution: "@next/swc-win32-x64-msvc@npm:14.2.28"
+"@next/swc-win32-x64-msvc@npm:14.2.29":
+  version: 14.2.29
+  resolution: "@next/swc-win32-x64-msvc@npm:14.2.29"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -750,22 +750,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-virtual@npm:^3.13.6":
-  version: 3.13.8
-  resolution: "@tanstack/react-virtual@npm:3.13.8"
+"@tanstack/react-virtual@npm:^3.13.9":
+  version: 3.13.9
+  resolution: "@tanstack/react-virtual@npm:3.13.9"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.13.8"
+    "@tanstack/virtual-core": "npm:3.13.9"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/1604227dad2f1c8d3b8246f8afe9bc37998da8f97ed7ef1b5d703fe3417c8a54541592a9091e7c8e63521002672268292d347c5c17fe1e1e82b9d0b297ddd1b4
+  checksum: 10c0/aa05fb24e30686516e74ccdec94a83d195615a4f29bc866a53ee6b0107e466c6d6e3e947b3fb0613b907b0f982d74b00367868cf6b1ac956562d0e7c24d6764b
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.13.8":
-  version: 3.13.8
-  resolution: "@tanstack/virtual-core@npm:3.13.8"
-  checksum: 10c0/4b76b5d87fb26c928939a58d3887b9191574f029f60f9146eb05fd591f8b96a69bd3c7a1d64dd9d6cbfbfc85a0bd22b49a79fa4d3abab64eee595db9ad94f3ea
+"@tanstack/virtual-core@npm:3.13.9":
+  version: 3.13.9
+  resolution: "@tanstack/virtual-core@npm:3.13.9"
+  checksum: 10c0/6e9526a9d52f8ddc54af8a1dc7380814b10ab38d8a4265e362a5b69c3132097ace51496d4206fe8aa90e33129aaf1a177c93d7ed018b5564b78e057fc9cdb48d
   languageName: node
   linkType: hard
 
@@ -783,12 +783,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.15.19":
-  version: 22.15.19
-  resolution: "@types/node@npm:22.15.19"
+"@types/node@npm:22.15.20":
+  version: 22.15.20
+  resolution: "@types/node@npm:22.15.20"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/8ef52fa1a91b1c8891616d46f3921a9f3c65ad1c6bb62db7899c8c28643c13bf9d607a2403b1e5aceb3e6fa6749efc9e0ba5c39618a4872da6946437b0edbfbe
+  checksum: 10c0/5137ff16b3090e24953e19dd14d69e7dddbb2ad01f6d7f5fdda3c1d9b3bfa18acd72317701cf983fe591919622e94cab846487b2b0104282ca006522274c58da
   languageName: node
   linkType: hard
 
@@ -1734,20 +1734,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.2.28":
-  version: 14.2.28
-  resolution: "next@npm:14.2.28"
+"next@npm:14.2.29":
+  version: 14.2.29
+  resolution: "next@npm:14.2.29"
   dependencies:
-    "@next/env": "npm:14.2.28"
-    "@next/swc-darwin-arm64": "npm:14.2.28"
-    "@next/swc-darwin-x64": "npm:14.2.28"
-    "@next/swc-linux-arm64-gnu": "npm:14.2.28"
-    "@next/swc-linux-arm64-musl": "npm:14.2.28"
-    "@next/swc-linux-x64-gnu": "npm:14.2.28"
-    "@next/swc-linux-x64-musl": "npm:14.2.28"
-    "@next/swc-win32-arm64-msvc": "npm:14.2.28"
-    "@next/swc-win32-ia32-msvc": "npm:14.2.28"
-    "@next/swc-win32-x64-msvc": "npm:14.2.28"
+    "@next/env": "npm:14.2.29"
+    "@next/swc-darwin-arm64": "npm:14.2.29"
+    "@next/swc-darwin-x64": "npm:14.2.29"
+    "@next/swc-linux-arm64-gnu": "npm:14.2.29"
+    "@next/swc-linux-arm64-musl": "npm:14.2.29"
+    "@next/swc-linux-x64-gnu": "npm:14.2.29"
+    "@next/swc-linux-x64-musl": "npm:14.2.29"
+    "@next/swc-win32-arm64-msvc": "npm:14.2.29"
+    "@next/swc-win32-ia32-msvc": "npm:14.2.29"
+    "@next/swc-win32-x64-msvc": "npm:14.2.29"
     "@swc/helpers": "npm:0.5.5"
     busboy: "npm:1.6.0"
     caniuse-lite: "npm:^1.0.30001579"
@@ -1788,7 +1788,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/c3300970c7d633cfde371e59ef3f1b08bd5403b7f5b43bc07ec16e17d8d82b993115c61cca003cec3e8dd3fe72d1fbe2bb366f76a8e91e39c80b0f9fe7cc41df
+  checksum: 10c0/369a56f09f337804325c4049fac7ae1609717b8e3317c5f4fb9f59b29a682bcf37aaaa7e50ad5251f9ffef60a4450b976644d053a951548b15f428d861514d49
   languageName: node
   linkType: hard
 
@@ -2520,18 +2520,18 @@ __metadata:
   resolution: "uptime@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    "@headlessui/react": "npm:2.2.3"
+    "@headlessui/react": "npm:2.2.4"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.41.0"
     "@tanstack/react-query": "npm:5.76.1"
     "@types/luxon": "npm:3.6.2"
-    "@types/node": "npm:22.15.19"
+    "@types/node": "npm:22.15.20"
     "@types/react": "npm:19.1.4"
     "@types/react-dom": "npm:19.1.5"
     encore.dev: "npm:1.46.22"
     knex: "npm:3.1.0"
     luxon: "npm:3.6.1"
-    next: "npm:14.2.28"
+    next: "npm:14.2.29"
     pg: "npm:8.16.0"
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
