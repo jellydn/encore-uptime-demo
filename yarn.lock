@@ -678,6 +678,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/rollup-linux-x64-gnu@npm:4.43.0":
+  version: 4.43.0
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.43.0"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-linux-x64-musl@npm:4.42.0":
   version: 4.42.0
   resolution: "@rollup/rollup-linux-x64-musl@npm:4.42.0"
@@ -824,12 +831,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.1.7":
-  version: 19.1.7
-  resolution: "@types/react@npm:19.1.7"
+"@types/react@npm:19.1.8":
+  version: 19.1.8
+  resolution: "@types/react@npm:19.1.8"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/3bb8fb865debad4328b0d623e1c669f2ee90e9302638a64e65a0a1c61efca4f4ef91f58b55ff94075358c190d80bb8472a5823c6901d8cdc9009dd436a1dcab1
+  checksum: 10c0/4908772be6dc941df276931efeb0e781777fa76e4d5d12ff9f75eb2dcc2db3065e0100efde16fde562c5bafa310cc8f50c1ee40a22640459e066e72cd342143e
   languageName: node
   linkType: hard
 
@@ -1176,10 +1183,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.48.3":
-  version: 1.48.3
-  resolution: "encore.dev@npm:1.48.3"
-  checksum: 10c0/f9041e3249c9d569dfa0423d831812326ffffe6c358f0981a1fc1c42cca861094b63a60ddad3aeb4b42b4ee0efcec5f26b9bd18dc479dcb12ce5dd8c78884470
+"encore.dev@npm:1.48.4":
+  version: 1.48.4
+  resolution: "encore.dev@npm:1.48.4"
+  checksum: 10c0/6a449f40e1ad46e8ae39e8e52af1b1a8f11a2ada77f167166cb751e6fbfe38c2f178f38ad5867a85121a98a3db38162c67e14e679c1c6ce79596255e9851c1ea
   languageName: node
   linkType: hard
 
@@ -2563,13 +2570,13 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.4"
     "@heroicons/react": "npm:2.2.0"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.42.0"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.43.0"
     "@tanstack/react-query": "npm:5.80.6"
     "@types/luxon": "npm:3.6.2"
     "@types/node": "npm:22.15.31"
-    "@types/react": "npm:19.1.7"
+    "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
-    encore.dev: "npm:1.48.3"
+    encore.dev: "npm:1.48.4"
     knex: "npm:3.1.0"
     luxon: "npm:3.6.1"
     next: "npm:14.2.29"
