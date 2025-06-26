@@ -678,9 +678,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.44.0":
-  version: 4.44.0
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.44.0"
+"@rollup/rollup-linux-x64-gnu@npm:4.44.1":
+  version: 4.44.1
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.44.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -1183,10 +1183,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.48.6":
-  version: 1.48.6
-  resolution: "encore.dev@npm:1.48.6"
-  checksum: 10c0/8e8b6f7898e2f7b25d02d65cf07fc8a8f3b22e6b51c88283cbe3efa3af224d0aac7da5b35baf43a995aefd776acbe5454769fa192b09f35a0f9c56a7c97ab964
+"encore.dev@npm:1.48.7":
+  version: 1.48.7
+  resolution: "encore.dev@npm:1.48.7"
+  checksum: 10c0/39b86e6fc17100c4ab46811f59e1913646f9284e27d4fb6cd54d8834fb164eb49b3accb4f28884e396a3485785cc914cc3771b237487049327bfa13ec9396b24
   languageName: node
   linkType: hard
 
@@ -2577,13 +2577,13 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.4"
     "@heroicons/react": "npm:2.2.0"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.44.0"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.44.1"
     "@tanstack/react-query": "npm:5.81.2"
     "@types/luxon": "npm:3.6.2"
     "@types/node": "npm:22.15.33"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
-    encore.dev: "npm:1.48.6"
+    encore.dev: "npm:1.48.7"
     knex: "npm:3.1.0"
     luxon: "npm:3.6.1"
     next: "npm:14.2.30"
