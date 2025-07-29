@@ -685,6 +685,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/rollup-linux-x64-gnu@npm:4.46.1":
+  version: 4.46.1
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.46.1"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-linux-x64-musl@npm:4.46.0":
   version: 4.46.0
   resolution: "@rollup/rollup-linux-x64-musl@npm:4.46.0"
@@ -799,10 +806,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/luxon@npm:3.6.2":
-  version: 3.6.2
-  resolution: "@types/luxon@npm:3.6.2"
-  checksum: 10c0/7572ee52b3d3e9dd10464b90561a728b90f34b9a257751cc3ce23762693dd1d14fa98b7f103e2efe2c6f49033331f91de5681ffd65cca88618cefe555be326db
+"@types/luxon@npm:3.7.0":
+  version: 3.7.0
+  resolution: "@types/luxon@npm:3.7.0"
+  checksum: 10c0/0acc985469cdf6371aca23605a4c2a669e6f5676021001dcdf729e0fe9282127e042bdea8dca6be615f92f2bdda724770cdd813087f3f0358999428748d72b10
   languageName: node
   linkType: hard
 
@@ -2081,21 +2088,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:19.1.0":
-  version: 19.1.0
-  resolution: "react-dom@npm:19.1.0"
+"react-dom@npm:19.1.1":
+  version: 19.1.1
+  resolution: "react-dom@npm:19.1.1"
   dependencies:
     scheduler: "npm:^0.26.0"
   peerDependencies:
-    react: ^19.1.0
-  checksum: 10c0/3e26e89bb6c67c9a6aa86cb888c7a7f8258f2e347a6d2a15299c17eb16e04c19194e3452bc3255bd34000a61e45e2cb51e46292392340432f133e5a5d2dfb5fc
+    react: ^19.1.1
+  checksum: 10c0/8c91198510521299c56e4e8d5e3a4508b2734fb5e52f29eeac33811de64e76fe586ad32c32182e2e84e070d98df67125da346c3360013357228172dbcd20bcdd
   languageName: node
   linkType: hard
 
-"react@npm:19.1.0":
-  version: 19.1.0
-  resolution: "react@npm:19.1.0"
-  checksum: 10c0/530fb9a62237d54137a13d2cfb67a7db6a2156faed43eecc423f4713d9b20c6f2728b026b45e28fcd72e8eadb9e9ed4b089e99f5e295d2f0ad3134251bdd3698
+"react@npm:19.1.1":
+  version: 19.1.1
+  resolution: "react@npm:19.1.1"
+  checksum: 10c0/8c9769a2dfd02e603af6445058325e6c8a24b47b185d0e461f66a6454765ddcaecb3f0a90184836c68bb509f3c38248359edbc42f0d07c23eb500a5c30c87b4e
   languageName: node
   linkType: hard
 
@@ -2566,9 +2573,9 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.6"
     "@heroicons/react": "npm:2.2.0"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.46.0"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.46.1"
     "@tanstack/react-query": "npm:5.83.0"
-    "@types/luxon": "npm:3.6.2"
+    "@types/luxon": "npm:3.7.0"
     "@types/node": "npm:22.16.5"
     "@types/react": "npm:19.1.8"
     "@types/react-dom": "npm:19.1.6"
@@ -2577,8 +2584,8 @@ __metadata:
     luxon: "npm:3.7.1"
     next: "npm:14.2.30"
     pg: "npm:8.16.3"
-    react: "npm:19.1.0"
-    react-dom: "npm:19.1.0"
+    react: "npm:19.1.1"
+    react-dom: "npm:19.1.1"
     typescript: "npm:5.8.3"
     vitest: "npm:3.2.4"
   dependenciesMeta:
