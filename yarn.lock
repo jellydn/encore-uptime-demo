@@ -739,21 +739,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.83.1":
-  version: 5.83.1
-  resolution: "@tanstack/query-core@npm:5.83.1"
-  checksum: 10c0/3eeacf678fcf9803585f1be74979548a33c7f659b8d5f33c1e3b3834ef3b9f3401070b2e2d38bbaa9c6e5a3c359baaa3828078e38007b7c99fb8c9f1e3911142
+"@tanstack/query-core@npm:5.85.2":
+  version: 5.85.2
+  resolution: "@tanstack/query-core@npm:5.85.2"
+  checksum: 10c0/398386c0e56b0ab0916951468b6b6a2b9f1f713fa95757405171f1c99c7a33cd3427eb20a82f252e5abc63ccd93e8e77c7cc5bc30043401d0dd5a074d7f5ff4e
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.85.0":
-  version: 5.85.0
-  resolution: "@tanstack/react-query@npm:5.85.0"
+"@tanstack/react-query@npm:5.85.2":
+  version: 5.85.2
+  resolution: "@tanstack/react-query@npm:5.85.2"
   dependencies:
-    "@tanstack/query-core": "npm:5.83.1"
+    "@tanstack/query-core": "npm:5.85.2"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/8c7cce9121cd28b0405cff52bf89b280fd2927c35fdc7e5847eb3b807d44dc9eccbc30b27c12d1ceb4c665aca1ad95a1089cf035d8eebd7cf61c15d4a0f0a230
+  checksum: 10c0/8feb9a82d25589b7f3a9cc1e3f24ec2b29b35e86522ca94b3f94dc2649e4a4472da7782b2e1f0b7a48722d11e8c34cf77711b9fbad474b1b73478ae0f06c9ba0
   languageName: node
   linkType: hard
 
@@ -2567,7 +2567,7 @@ __metadata:
     "@headlessui/react": "npm:2.2.7"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.46.2"
-    "@tanstack/react-query": "npm:5.85.0"
+    "@tanstack/react-query": "npm:5.85.2"
     "@types/luxon": "npm:3.7.1"
     "@types/node": "npm:22.17.1"
     "@types/react": "npm:19.1.10"
