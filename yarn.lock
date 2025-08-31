@@ -685,9 +685,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.49.0":
-  version: 4.49.0
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.49.0"
+"@rollup/rollup-linux-x64-gnu@npm:4.50.0":
+  version: 4.50.0
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.50.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -746,21 +746,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.85.5":
-  version: 5.85.5
-  resolution: "@tanstack/query-core@npm:5.85.5"
-  checksum: 10c0/344670ac117bc4775a9e812fc91e27befc9ef4f681e341d8f76af3cd075eecdcc5aa058a9544a6b56cccb8e07f22ef5c9e0c852331d428bcce5e1223deef14bd
+"@tanstack/query-core@npm:5.85.6":
+  version: 5.85.6
+  resolution: "@tanstack/query-core@npm:5.85.6"
+  checksum: 10c0/a7b2141094185f8ad8e168e57cf20cec07a93dcfad95e6e71f1154e40d3753230bd0851fd19cc8e221f61a6cd6d7e9dba8853ada304da29dc1b3f866dbe2b090
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.85.5":
-  version: 5.85.5
-  resolution: "@tanstack/react-query@npm:5.85.5"
+"@tanstack/react-query@npm:5.85.6":
+  version: 5.85.6
+  resolution: "@tanstack/react-query@npm:5.85.6"
   dependencies:
-    "@tanstack/query-core": "npm:5.85.5"
+    "@tanstack/query-core": "npm:5.85.6"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/7518cd624f9fe7c258b460192a73021a1e7fe0e0ea4173de69ca0a69cf60cc812bdb59b13c7f9acdbf45f4f0e82e8efb1e739528cf26e334e4a80606d7c7050d
+  checksum: 10c0/058564eea1805cf50d80ba2ddc3040df4564563802faf5e4a1282d859ab6d6d1bc50aa8a7924a5c060d57813dbe63dec4076e75e1988af4dbc60da0a743969aa
   languageName: node
   linkType: hard
 
@@ -822,12 +822,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:19.1.8":
-  version: 19.1.8
-  resolution: "@types/react-dom@npm:19.1.8"
+"@types/react-dom@npm:19.1.9":
+  version: 19.1.9
+  resolution: "@types/react-dom@npm:19.1.9"
   peerDependencies:
     "@types/react": ^19.0.0
-  checksum: 10c0/561f9679c99e93adba8ecdf7d5ad69cc9d5e35837fa996246a83713f0ce498fc5b871f9a2a3342c7d440fc02159abe10f29c4a4004527d5d38b2e84f21840793
+  checksum: 10c0/34c8dda86c1590b3ef0e7ecd38f9663a66ba2dd69113ba74fb0adc36b83bbfb8c94c1487a2505282a5f7e5e000d2ebf36f4c0fd41b3b672f5178fd1d4f1f8f58
   languageName: node
   linkType: hard
 
@@ -2556,12 +2556,12 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.7"
     "@heroicons/react": "npm:2.2.0"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.49.0"
-    "@tanstack/react-query": "npm:5.85.5"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.50.0"
+    "@tanstack/react-query": "npm:5.85.6"
     "@types/luxon": "npm:3.7.1"
     "@types/node": "npm:22.18.0"
     "@types/react": "npm:19.1.12"
-    "@types/react-dom": "npm:19.1.8"
+    "@types/react-dom": "npm:19.1.9"
     encore.dev: "npm:1.49.1"
     knex: "npm:3.1.0"
     luxon: "npm:3.7.1"
