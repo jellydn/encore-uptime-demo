@@ -746,21 +746,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.85.6":
-  version: 5.85.6
-  resolution: "@tanstack/query-core@npm:5.85.6"
-  checksum: 10c0/a7b2141094185f8ad8e168e57cf20cec07a93dcfad95e6e71f1154e40d3753230bd0851fd19cc8e221f61a6cd6d7e9dba8853ada304da29dc1b3f866dbe2b090
+"@tanstack/query-core@npm:5.87.1":
+  version: 5.87.1
+  resolution: "@tanstack/query-core@npm:5.87.1"
+  checksum: 10c0/12c83ca67d778c1065836d0215987b4b04369c8195a32b2b3bd73ed873ff72d20027b72175ee9120b98278c299bdf5161a92f7ba629ab4ee687cb4085e91568a
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.85.6":
-  version: 5.85.6
-  resolution: "@tanstack/react-query@npm:5.85.6"
+"@tanstack/react-query@npm:5.87.1":
+  version: 5.87.1
+  resolution: "@tanstack/react-query@npm:5.87.1"
   dependencies:
-    "@tanstack/query-core": "npm:5.85.6"
+    "@tanstack/query-core": "npm:5.87.1"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/058564eea1805cf50d80ba2ddc3040df4564563802faf5e4a1282d859ab6d6d1bc50aa8a7924a5c060d57813dbe63dec4076e75e1988af4dbc60da0a743969aa
+  checksum: 10c0/12b224d6e0a5b1f033c3475d475d79ca8a5693720b5cd35c3a872a67690ff3993576d2af96d3a82c054f2fe985738044ef5ef9824f8c476bc959f188f10defe8
   languageName: node
   linkType: hard
 
@@ -813,12 +813,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.18.0":
-  version: 22.18.0
-  resolution: "@types/node@npm:22.18.0"
+"@types/node@npm:22.18.1":
+  version: 22.18.1
+  resolution: "@types/node@npm:22.18.1"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/02cce4493eee8408e66e76fcad164f33c0600ed0854ad08e5519a76a06402da5b589b278cf71bc975c9e014f2668bdf758bc3be7fed63bdbfd0900495372797c
+  checksum: 10c0/1912b0ea6cb9ef59722b0fed64652388e13b41d52569c16198f1278a882837bbf4c8a4ec913e852893356f07c0c44b4e00fbca289ac7222741d03449104e22fe
   languageName: node
   linkType: hard
 
@@ -1183,10 +1183,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.49.1":
-  version: 1.49.1
-  resolution: "encore.dev@npm:1.49.1"
-  checksum: 10c0/b2345a3de9b15df2dbeb8132b6f7c16d127f621a6b81a3718625f3c84c06b32d99f5224842d6af94bfda931aabc3452fa0425640dfceed0bee0863009a07b90b
+"encore.dev@npm:1.49.3":
+  version: 1.49.3
+  resolution: "encore.dev@npm:1.49.3"
+  checksum: 10c0/21474fd082d47a1a86b323f6fbc88e3cba695525468c33e4488efb0465208f3a768c4f04b7b813d2ee889f13b9f1648d828455972d2678fe814b3de851f805ff
   languageName: node
   linkType: hard
 
@@ -1607,10 +1607,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.7.1":
-  version: 3.7.1
-  resolution: "luxon@npm:3.7.1"
-  checksum: 10c0/f83bc23a4c09da9111bc2510d2f5346e1ced4938379ebff13e308fece2ea852eb6e8b9ed8053b8d82e0fce05d5dd46e4cd64d8831ca04cfe32c0954b6f087258
+"luxon@npm:3.7.2":
+  version: 3.7.2
+  resolution: "luxon@npm:3.7.2"
+  checksum: 10c0/ed8f0f637826c08c343a29dd478b00628be93bba6f068417b1d8896b61cb61c6deacbe1df1e057dbd9298334044afa150f9aaabbeb3181418ac8520acfdc2ae2
   languageName: node
   linkType: hard
 
@@ -2557,14 +2557,14 @@ __metadata:
     "@headlessui/react": "npm:2.2.7"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.50.0"
-    "@tanstack/react-query": "npm:5.85.6"
+    "@tanstack/react-query": "npm:5.87.1"
     "@types/luxon": "npm:3.7.1"
-    "@types/node": "npm:22.18.0"
+    "@types/node": "npm:22.18.1"
     "@types/react": "npm:19.1.12"
     "@types/react-dom": "npm:19.1.9"
-    encore.dev: "npm:1.49.1"
+    encore.dev: "npm:1.49.3"
     knex: "npm:3.1.0"
-    luxon: "npm:3.7.1"
+    luxon: "npm:3.7.2"
     next: "npm:14.2.32"
     pg: "npm:8.16.3"
     react: "npm:19.1.1"
