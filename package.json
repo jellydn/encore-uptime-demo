@@ -11,7 +11,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/luxon": "3.7.1",
-		"@types/node": "22.18.0",
+		"@types/node": "22.18.1",
 		"@types/react": "19.1.12",
 		"@types/react-dom": "19.1.9",
 		"typescript": "5.9.2",
@@ -20,10 +20,10 @@
 	"dependencies": {
 		"@headlessui/react": "2.2.7",
 		"@heroicons/react": "2.2.0",
-		"@tanstack/react-query": "5.85.6",
-		"encore.dev": "1.49.1",
+		"@tanstack/react-query": "5.87.1",
+		"encore.dev": "1.49.3",
 		"knex": "3.1.0",
-		"luxon": "3.7.1",
+		"luxon": "3.7.2",
 		"next": "14.2.32",
 		"pg": "8.16.3",
 		"react": "19.1.1",
