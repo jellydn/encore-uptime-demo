@@ -1198,10 +1198,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.51.6":
-  version: 1.51.6
-  resolution: "encore.dev@npm:1.51.6"
-  checksum: 10c0/342cf446aa3ede47764555f2bb947276c62a5ccd9cbc03b048e4d2991278f5f377c60b8ff1668a79ba07177f3188e5aa4b723fb16d987a2442dfaffc2b59eeb9
+"encore.dev@npm:1.51.7":
+  version: 1.51.7
+  resolution: "encore.dev@npm:1.51.7"
+  checksum: 10c0/a33013792cdbc1fc947dda94fa46c97212444fb2c5797e3b7f91d56a0715fafa7d247805bd37fc2005f9a15ba32f9a01e2b64d3e7bfe7cc8034c6ca45f05c597
   languageName: node
   linkType: hard
 
@@ -2573,7 +2573,7 @@ __metadata:
     "@types/node": "npm:22.19.1"
     "@types/react": "npm:19.2.4"
     "@types/react-dom": "npm:19.2.3"
-    encore.dev: "npm:1.51.6"
+    encore.dev: "npm:1.51.7"
     knex: "npm:3.1.0"
     luxon: "npm:3.7.2"
     next: "npm:14.2.33"
