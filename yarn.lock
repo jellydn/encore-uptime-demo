@@ -694,6 +694,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/rollup-linux-x64-gnu@npm:4.53.3":
+  version: 4.53.3
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.53.3"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-linux-x64-musl@npm:4.53.2":
   version: 4.53.2
   resolution: "@rollup/rollup-linux-x64-musl@npm:4.53.2"
@@ -848,12 +855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.2.5":
-  version: 19.2.5
-  resolution: "@types/react@npm:19.2.5"
+"@types/react@npm:19.2.6":
+  version: 19.2.6
+  resolution: "@types/react@npm:19.2.6"
   dependencies:
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/1f9a92c73a5ea5b167f59cd0b5b9460fde65bd22b63b6d23bfaace8ad38537df127c97657418b4912a7a03a66e6451e82a41b84718d638ec1c8e4f0515d94793
+    csstype: "npm:^3.2.2"
+  checksum: 10c0/23b1100f88662ce9f9e4fcca3a2b4ef9fff1ecde24ede2b2dcbd07731e48d6946fd7fd156cd133f5b25321694b0569cd9b8dd30b22c4e076d1cf4c8cdd9a75cb
   languageName: node
   linkType: hard
 
@@ -1115,10 +1122,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2":
-  version: 3.2.2
-  resolution: "csstype@npm:3.2.2"
-  checksum: 10c0/ec45114093760c9944c84514615fe4080189276ee4980f52359426a4db5e4fdf0a60affac2c033b978d6c0fed275f37820952682aefa85aeec041d00fecff64d
+"csstype@npm:^3.2.2":
+  version: 3.2.3
+  resolution: "csstype@npm:3.2.3"
+  checksum: 10c0/cd29c51e70fa822f1cecd8641a1445bed7063697469d35633b516e60fe8c1bde04b08f6c5b6022136bb669b64c63d4173af54864510fbb4ee23281801841a3ce
   languageName: node
   linkType: hard
 
@@ -1183,10 +1190,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"encore.dev@npm:1.51.8":
-  version: 1.51.8
-  resolution: "encore.dev@npm:1.51.8"
-  checksum: 10c0/7b70eee9adb833a69fb81eb4ba538701d4149335bd08cc09ea792d666e619c0a8b16659dfcaeb13d876a388240fae6755fd73ef62f35c5da3c218508ba8e46bc
+"encore.dev@npm:1.51.10":
+  version: 1.51.10
+  resolution: "encore.dev@npm:1.51.10"
+  checksum: 10c0/e0a612d45d9cc2080b02c3ce97dacdae7cc77775a2e623c54f5b7d306dde85abf24c8a73b4ce8684daf606daf7c0ce6001723f4b87eb05fbc42f90d0466faaea
   languageName: node
   linkType: hard
 
@@ -2557,13 +2564,13 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@headlessui/react": "npm:2.2.9"
     "@heroicons/react": "npm:2.2.0"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.53.2"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.53.3"
     "@tanstack/react-query": "npm:5.90.10"
     "@types/luxon": "npm:3.7.1"
     "@types/node": "npm:22.19.1"
-    "@types/react": "npm:19.2.5"
+    "@types/react": "npm:19.2.6"
     "@types/react-dom": "npm:19.2.3"
-    encore.dev: "npm:1.51.8"
+    encore.dev: "npm:1.51.10"
     knex: "npm:3.1.0"
     luxon: "npm:3.7.2"
     next: "npm:14.2.33"
