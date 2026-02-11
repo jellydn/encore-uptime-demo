@@ -12,7 +12,7 @@
 		"@biomejs/biome": "1.9.4",
 		"@types/luxon": "3.7.1",
 		"@types/node": "22.19.11",
-		"@types/react": "19.2.13",
+		"@types/react": "19.2.14",
 		"@types/react-dom": "19.2.3",
 		"typescript": "5.9.3",
 		"vitest": "3.2.4"
@@ -20,7 +20,7 @@
 	"dependencies": {
 		"@headlessui/react": "2.2.9",
 		"@heroicons/react": "2.2.0",
-		"@tanstack/react-query": "5.90.20",
+		"@tanstack/react-query": "5.90.21",
 		"encore.dev": "1.54.0",
 		"knex": "3.1.0",
 		"luxon": "3.7.2",
