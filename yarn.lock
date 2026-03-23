@@ -767,21 +767,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.95.0":
-  version: 5.95.0
-  resolution: "@tanstack/query-core@npm:5.95.0"
-  checksum: 10c0/ccd53d42748f654c2ad203efd76b4e6a654bc960096e5a10377938b8ee7600bf1d82c2062ffc75eb6320915e9943cf646183c291ff91a64716f76904d2a1fc97
+"@tanstack/query-core@npm:5.95.2":
+  version: 5.95.2
+  resolution: "@tanstack/query-core@npm:5.95.2"
+  checksum: 10c0/6559483b30dd9ce7fc5d466d54a7ebfe4ca5b5d7f8ce37833a4048516b55565d3072526d74264fa974afbe49a0ae11c9a99ecc1d9ab525966360565ebc600083
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.95.0":
-  version: 5.95.0
-  resolution: "@tanstack/react-query@npm:5.95.0"
+"@tanstack/react-query@npm:5.95.2":
+  version: 5.95.2
+  resolution: "@tanstack/react-query@npm:5.95.2"
   dependencies:
-    "@tanstack/query-core": "npm:5.95.0"
+    "@tanstack/query-core": "npm:5.95.2"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/67025fa88de906a7b5511c6ac09f953904f0c3f72976ca2af578b63a005b27320d95fe05e1f01dcefae9bfeb3db11b190a06908c32014009c363f363cb0eb0ad
+  checksum: 10c0/d0e3d3601ccc839043ce7351c369f8826c7363e753db4fec59d07bee0d62efdfa606baf8227597eb54c4d4eb18ab3f594f0cd4e164721acb79ab3628115d72d8
   languageName: node
   linkType: hard
 
@@ -1424,9 +1424,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knex@npm:3.2.3":
-  version: 3.2.3
-  resolution: "knex@npm:3.2.3"
+"knex@npm:3.2.4":
+  version: 3.2.4
+  resolution: "knex@npm:3.2.4"
   dependencies:
     colorette: "npm:2.0.19"
     commander: "npm:^10.0.0"
@@ -1463,7 +1463,7 @@ __metadata:
       optional: true
   bin:
     knex: bin/cli.js
-  checksum: 10c0/306c48d4dc864c48817dc770066764ab6c5965d6b9bfd2f038ce139094f5d6058882a27418f1baa596d9eac8c9a6d2494cfdc5224ee763d3b6384075e665373f
+  checksum: 10c0/6823eaf5cc59f94c88121f926e0b84c7eb5bfa53323f38e70de05ab01781754214f88cb352f777d934e2aaf37ef11e9b766f1b3a50b614a91e8b8c52b04d5812
   languageName: node
   linkType: hard
 
@@ -2332,13 +2332,13 @@ __metadata:
     "@headlessui/react": "npm:2.2.9"
     "@heroicons/react": "npm:2.2.0"
     "@rollup/rollup-linux-x64-gnu": "npm:4.60.0"
-    "@tanstack/react-query": "npm:5.95.0"
+    "@tanstack/react-query": "npm:5.95.2"
     "@types/luxon": "npm:3.7.1"
     "@types/node": "npm:22.19.15"
     "@types/react": "npm:19.2.14"
     "@types/react-dom": "npm:19.2.3"
     encore.dev: "npm:1.56.0"
-    knex: "npm:3.2.3"
+    knex: "npm:3.2.4"
     luxon: "npm:3.7.2"
     next: "npm:14.2.35"
     pg: "npm:8.20.0"
