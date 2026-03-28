@@ -1424,9 +1424,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knex@npm:3.2.6":
-  version: 3.2.6
-  resolution: "knex@npm:3.2.6"
+"knex@npm:3.2.7":
+  version: 3.2.7
+  resolution: "knex@npm:3.2.7"
   dependencies:
     colorette: "npm:2.0.19"
     commander: "npm:^10.0.0"
@@ -1463,7 +1463,7 @@ __metadata:
       optional: true
   bin:
     knex: bin/cli.js
-  checksum: 10c0/0ac38fe898fd7969e2f6b36b789a1b1ec72c642511e245d7a2dd499ced0dc066d2b687bb6cc4d6d08f0055946d443c1075bcd4b47ffafa686aad7d77fce3bac4
+  checksum: 10c0/f3f1f2abd76726a2c5ddfd681ec9402bae50bd18982e525d6a5b1b48450f96402c6ea7c1732008a6a7abf5e1d26e83f54b64b74553d67b40de0b908632f769a6
   languageName: node
   linkType: hard
 
@@ -2338,7 +2338,7 @@ __metadata:
     "@types/react": "npm:19.2.14"
     "@types/react-dom": "npm:19.2.3"
     encore.dev: "npm:1.56.2"
-    knex: "npm:3.2.6"
+    knex: "npm:3.2.7"
     luxon: "npm:3.7.2"
     next: "npm:14.2.35"
     pg: "npm:8.20.0"
