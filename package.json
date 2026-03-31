@@ -22,7 +22,7 @@
 		"@heroicons/react": "2.2.0",
 		"@tanstack/react-query": "5.95.2",
 		"encore.dev": "1.56.2",
-		"knex": "3.2.7",
+		"knex": "3.2.8",
 		"luxon": "3.7.2",
 		"next": "14.2.35",
 		"pg": "8.20.0",
