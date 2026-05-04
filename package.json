@@ -21,7 +21,7 @@
 		"@headlessui/react": "2.2.10",
 		"@heroicons/react": "2.2.0",
 		"@tanstack/react-query": "5.100.9",
-		"encore.dev": "1.56.7",
+		"encore.dev": "1.56.9",
 		"knex": "3.2.10",
 		"luxon": "3.7.2",
 		"next": "14.2.35",
@@ -30,7 +30,7 @@
 		"react-dom": "19.2.5"
 	},
 	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "4.60.2"
+		"@rollup/rollup-linux-x64-gnu": "4.60.3"
 	},
 	"packageManager": "yarn@4.14.1"
 }
