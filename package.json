@@ -26,8 +26,8 @@
 		"luxon": "3.7.2",
 		"next": "14.2.35",
 		"pg": "8.20.0",
-		"react": "19.2.5",
-		"react-dom": "19.2.5"
+		"react": "19.2.6",
+		"react-dom": "19.2.6"
 	},
 	"optionalDependencies": {
 		"@rollup/rollup-linux-x64-gnu": "4.60.3"
