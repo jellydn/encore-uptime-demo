@@ -11,7 +11,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/luxon": "3.7.1",
-		"@types/node": "22.19.20",
+		"@types/node": "22.19.21",
 		"@types/react": "19.2.17",
 		"@types/react-dom": "19.2.3",
 		"typescript": "5.9.3",
@@ -21,7 +21,7 @@
 		"@headlessui/react": "2.2.10",
 		"@heroicons/react": "2.2.0",
 		"@tanstack/react-query": "5.101.0",
-		"encore.dev": "1.57.6",
+		"encore.dev": "1.57.8",
 		"knex": "3.2.10",
 		"luxon": "3.7.2",
 		"next": "14.2.35",
@@ -30,7 +30,7 @@
 		"react-dom": "19.2.7"
 	},
 	"optionalDependencies": {
-		"@rollup/rollup-linux-x64-gnu": "4.61.1"
+		"@rollup/rollup-linux-x64-gnu": "4.62.0"
 	},
-	"packageManager": "yarn@4.16.0"
+	"packageManager": "yarn@4.17.0"
 }
